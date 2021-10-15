@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .bodyBgColor{
+    background-color:greenyellow;
+} */
+
+/* .ChangeColor{
+    background-color: blueviolet;
+} */
+
+form{
+       font-size: 55px;
+}
+
+
+button{
+    height:55px;
+}

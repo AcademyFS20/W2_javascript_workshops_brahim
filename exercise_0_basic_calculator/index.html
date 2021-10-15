@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+</head>
+<body>
+    <h1>calculator</h1>
+    <div class="insertNumbers">
+        <h3>insert numbers</h3>
+        <div class=inputArea>
+        <label for="1stNum">x</label>
+        <input type="number" id="1stNum" name="1stNum"><br><br>
+        <label for="2ndNum">x</label>
+        <input type="number" id="2ndNum" name="2ndNum"><br><br>
+        </div>
+    </div>
+    <div class="operation">
+        <h3>choose an operation</h3>
+        <div class=operationsMenu>
+<!-- 
+            <button id="Addition" type="button">Addition</button> 
+            <button id ="substraction" type="button">Substraction</button> 
+            <button id="multiplication" type="button">Multiplication</button> 
+            <button id="division"type="button">Division</button> 
+            <button id="modulo" type="button">Modulo</button> -->
+
+            <button onclick="add()" id="Addition" type="button">Addition</button> 
+            <button onclick="sub()" id ="substraction" type="button">Substraction</button> 
+            <button onclick="mulitply()" id="multiplication" type="button">Multiplication</button> 
+            <button onclick="divid()" id="division"type="button">Division</button> 
+            <button onclick="mod()" id="modulo" type="button">Modulo</button>  
+        </div>
+    </div>
+    <div class="result">
+        <h3>Result</h3>
+    </div>
+<!-- <script src="javascript/script.js" language="JavaScript" type="text/javascript"></script> -->
+<script src="javascript/script2.js" language="JavaScript" type="text/javascript"></script>
+
+</body>
+</html>

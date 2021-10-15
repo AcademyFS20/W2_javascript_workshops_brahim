@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<h2>Instructions</h2>
+<form id="form" action="/" method="GET">
+    <label for="nomEtPrenom">Nom Et Prenom*:</label>
+      <input type="text" id="nomEtPrenom" name="nomEtPrenom"><br><br>
+    <label for="cin">CIN*:</label>
+      <input type="text" id="cin" name="cin"><br><br>
+    <label for="email">Adress email*:</label>
+      <input type="text" id="email" name="email"><br><br>
+    <div class="niveau">
+      <h3>Niveau</h3>
+      <label for="secndaire">
+        <input id="secondaire" type="radio" name="secondaire">Secondaire
+      </label>
+      <label for="secondaire">
+        <input id="universitaire" type="radio" name="universitaire">Universitaire</label>
+      <label for="autre">
+        <input id="autre" type="radio" name="autre">Autre
+      </label>
+    </div>
+    <div>
+      <label for="cars">Modules</label>
+      <select name="Modulesdeformation" id="Modulesdeformation" multiple>
+        <option value="Bureautique">Bureautique</option>
+        <option value="SE et reseaux info">SE et Réseaux info.</option>
+        <option value="TIC">TIC</option>
+      </select>
+    </div>
+
+    <input id="submitForm" type="submit" value="envoyer"> 
+    <input id="submitCancel" type="submit" value="annuler"> 
+
+
+
+
+    
+  </form>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

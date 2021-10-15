@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap'); 
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 987px;
+    gap:5px;
+}
+
+input{
+height:55px;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 610px;
+    gap:34px;
+}
+
+button{
+    height: 55px;
+    font-weight: bold;
+    font-size: 34px;
+}
