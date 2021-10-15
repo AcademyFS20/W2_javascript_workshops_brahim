@@ -32,14 +32,18 @@ function program(){
     let age = prompt("how older are you?", "0");
     let value = parseInt(age);
         
-    switch (value){ 
-    case (value < 18) :
+    switch (true){ 
+    case (value < 18):
     alert("sorry you can't drive the car");
     break;
 
-    default:
+    case (value >= 18):
     alert("you can drive the car")
-    
+    break;
+
+    default:
+    alert("give your age number");
+    break;
 }
 }
 
